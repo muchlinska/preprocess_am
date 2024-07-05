@@ -17,5 +17,5 @@ setuptools.setup(
 	'Progmramming Language :: Python :: 3',
 	'License :: OSI Aproved :: MIT License',
 	'Operating System :: OS Independent'],
-	python_requires = '>=3.12'
+	python_requires = '>=3.9.13'
 	)
