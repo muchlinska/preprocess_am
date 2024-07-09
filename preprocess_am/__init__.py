@@ -1,6 +1,6 @@
 from preprocess_am import utils
 
-__version__ = '0.0.8'
+__version__ = '0.0.9'
 
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)
@@ -12,13 +12,13 @@ def get_avg_wordlength(x):
 	return utils._get_avg_wordlength(x)
 
 def get_stopword_counts(x):
-	return utils._get_stopwords_counts(x)
+	return utils._get_stopword_counts(x)
 
 def get_hashtag_counts(x):
 	return utils._get_hashtag_counts(x)
 
 def get_mention_counts(x):
-	return utils._get_mentions_count(x)
+	return utils._get_mention_count(x)
 
 def get_digit_counts(x):
 	return utils._get_digit_counts(x)
