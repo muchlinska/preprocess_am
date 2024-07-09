@@ -25,7 +25,7 @@ def _get_avg_wordlength(x):
 	count = _get_charcounts(x)/_get_wordcounts(x)
 	return count
 
-def _get_stopwords_counts(x):
+def _get_stopword_counts(x):
 	l = len([t for t in x.split() if t in stopwords])
 	return l
 
@@ -33,7 +33,7 @@ def _get_hashtag_counts(x):
 	l = len([t for t in x.split() if t.startswith('#')])
 	return l
 
-def _get_mentions_count(x):
+def _get_mention_counts(x):
 	l = len([t for t in x.split() if t.startswith('@')])
 	return l
 
@@ -41,7 +41,7 @@ def _get_digit_counts(x):
 	l = len([t for t in x.split() if t.isdigit()])
 	return l
 
-def _get_uppercase_count(x):
+def _get_uppercase_counts(x):
 	l = len([t for t in x.split() if t.isupper()])
 	return l
 
