@@ -59,7 +59,7 @@ def remove_stopwords(x):
 def make_base(x):
 	return utils._make_base(x)
 
-def get_value_counts(df, col)
+def get_value_counts(df, col):
 	return utils._get_value_counts(df, col)
 
 def remove_commonwords(x, freq, n=20):
