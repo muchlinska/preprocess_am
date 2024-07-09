@@ -6,7 +6,7 @@ with open('READ ME.md', 'r') as file:
 
 setuptools.setup(
 	name = 'preprocess_am',
-	version = '0.0.5',
+	version = '0.0.6',
 	author = 'Anna M',
 	author_email = 'anna.muchlinska@gmail.com',
 	description = 'This is preprocessing package',
